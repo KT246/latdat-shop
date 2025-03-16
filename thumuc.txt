@@ -1,0 +1,19 @@
+📂 src
+ ├── 📂 app
+ │    ├── 📂 (auth)           # Group route cho auth
+ │    │    ├── login/page.js  # Trang đăng nhập
+ │    │    ├── register/page.js # Trang đăng ký
+ │    ├── 📂 dashboard        # Trang dashboard (cần login)
+ │    │    ├── page.js
+ │    ├── layout.js           # Layout chính
+ │    ├── page.js             # Trang chính (Home)
+ │
+ ├── 📂 stores                # Chứa Zustand store
+ │    ├── authStore.js        # Lưu trạng thái xác thực
+ │    ├── cartStore.js        # Quản lý giỏ hàng
+ │
+ ├── 📂 components            # Các component dùng chung
+ │    ├── Navbar.js           # Thanh điều hướng
+ │
+ ├── 📂 middleware            # Middleware bảo vệ trang
+ │    ├── authMiddleware.js

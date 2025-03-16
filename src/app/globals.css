@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Lao:wght@100..900&display=swap");
+
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
+body {
+  font-family: "Inter", "Noto Sans Lao", sans-serif;
+  color: #212529;
+}
+
+.Toastify__toast {
+  font-family: "Noto Sans Lao", sans-serif;
+}
